@@ -1,0 +1,77 @@
+header {
+    background: #BBBBBB;
+    /*muda a cor do cabeçalho para cinza*/
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    /*Largura de tamanho padrão para web*/
+    margin: o auto;
+}
+nav {
+    position: absolute;
+    /*Marcação do texto muda quando a página for recarregada*/
+    top: 110px;
+    right: 0;
+}
+nav li {
+    display: inline;
+    /* deixa o texto um ao lado do outro, quebrando a lista que é em block*/
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    /*deixa o texto em maisculo*/
+    color: black;
+    /* muda a cor da fonte */
+    font-weight: bold;
+    /* coloca em negrito a fonte*/
+    font-size: 22px;
+    /* aumenta ou diminui o tamanho da fonte*/
+    text-decoration: none;
+    /*tira o sublimado do texto*/
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+
+}
+form{
+    margin: 40px 0;
+}
+form label {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+form label, form p {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox {
+    margin: 20px 0;
+}
+footer{
+    text-align: center;
+    background: url(bg.jpg);
+    padding: 40px 0;
+}
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px 0;
+
+}
